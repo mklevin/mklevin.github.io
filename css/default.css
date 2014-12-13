@@ -124,7 +124,7 @@ a:hover {
 	padding-left: 8px;
 }
 
-.symbol-top, a.symbol-top:before {
+.symbol-top:before {
 	position: absolute;
 	top: 0;
 	width: 100%;
