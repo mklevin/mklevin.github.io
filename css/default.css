@@ -13,12 +13,12 @@
 
 @font-face {
     font-family: 'Mono Social Icons Font';
-    src: url('MonoSocialIconsFont-1.10.eot');
-    src: url('MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
-         url('MonoSocialIconsFont-1.10.woff') format('woff'),
-         url('MonoSocialIconsFont-1.10.ttf') format('truetype'),
-         url('MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
-    src: url('MonoSocialIconsFont-1.10.ttf') format('truetype');
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -91,7 +91,7 @@ a:hover {
 	color: #fff;
 	position: absolute;
 	width: 600%;
-	top: 120%;
+	top: 130%;
 	text-align: right;
 	right: 0;
 	opacity: 0;
@@ -132,12 +132,12 @@ a:hover {
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
-	line-height: 2;
+	line-height: 1;
 	text-align: center;
 	color: #47a3da;
 	-webkit-font-smoothing: antialiased;
 	text-indent: 8000px;
-	padding-left: 8px;
+	padding-left: 3px;
 }
 
 .symbol, a.symbol:before {
@@ -157,7 +157,7 @@ a:hover {
 a.symbol:before {
     content: attr(title);
     margin-right: 0.3em;
-    font-size: 130%;
+    font-size: 200%;
 }
 
 .container > header nav a:hover:before {

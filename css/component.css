@@ -22,6 +22,7 @@ html, body,
 
 .cbp-fbscroller > nav a {
 	display: block;
+	background: #47A3DA;
 	position: relative;
 	z-index: 9999;
 	color: transparent;
@@ -34,11 +35,11 @@ html, body,
 }
 
 .no-touch .cbp-fbscroller > nav a:hover {
-	background: rgba(255,255,255,0.6);
+	background: #7BBCE4;
 }
 
 .cbp-fbscroller > nav a.cbp-fbcurrent {
-	background: #fff;
+	background: #C8E3F4;
 }
 
 /* background-attachment does the trick */
@@ -54,22 +55,27 @@ html, body,
 }
 
 #fbsection1 {
-	background-image: url(../images/1.jpg);
+	// background-image: url(../images/1.jpg);
+	background-color: #47A3DA;
 }
 
 #fbsection2 {
-	background-image: url(../images/2.jpg);
+	// background-image: url(../images/2.jpg);
+	background-color: #fff;
 }
 
 #fbsection3 {
-	background-image: url(../images/3.jpg);
+	// background-image: url(../images/3.jpg);
+	background-color: #47A3DA;
 }
 
 #fbsection4 {
-	background-image: url(../images/4.jpg);
+	// background-image: url(../images/4.jpg);
+	background-color: #fff;
 }
 
 #fbsection5 {
-	background-image: url(../images/5.jpg);
+	// background-image: url(../images/5.jpg);
+	background-color: #47A3DA;
 }
 
