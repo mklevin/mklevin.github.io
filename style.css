@@ -2874,6 +2874,10 @@ footer .meta-social ul li a:hover {
     color: #fff;
 }
 
+#top-footer {
+	margin-top: 1.34em;
+}
+
 #top-footer h4 {
     margin-top: 1.34em;
 }
