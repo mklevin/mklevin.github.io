@@ -5191,6 +5191,10 @@ footer .row-content.buffer {
     #brand h1 {
     	margin-top: 0em;
     }
+    
+    .intro-item h2 {
+	    margin-top: 33%;
+    }
 }
 
 @media handheld,only screen and (max-width:48em) {
@@ -5201,6 +5205,10 @@ footer .row-content.buffer {
     
     #brand h1 {
     	margin-top: 0em;
+    }
+    
+    .intro-item h2 {
+	    margin-top: 33%;
     }
 }
       
