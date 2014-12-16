@@ -5200,8 +5200,11 @@ footer .row-content.buffer {
 	    margin-top: 50%;
     }
     
-    #bottom-footer .keep-left, #bottom-footer .keep-right {
-    	text-align: center !important;
+   	footer .keep-left, footer .keep-right {
+    	text-align: center;
+    	margin-right:auto;
+    	margin-left:auto;
+    	float: none;
     }
 }
 
