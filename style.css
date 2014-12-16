@@ -5199,6 +5199,10 @@ footer .row-content.buffer {
     .intro-item h2 {
 	    margin-top: 50%;
     }
+    
+    #bottom-footer .keep-left {
+    	text-align: center;
+    }
 }
 
 @media handheld,only screen and (max-width:48em) {
