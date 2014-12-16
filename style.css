@@ -5187,12 +5187,20 @@ footer .row-content.buffer {
         margin-left: 0 !important;
         width: auto !important;
     }
+    
+    #brand h1 {
+    	margin-top: 0em;
+    }
 }
 
 @media handheld,only screen and (max-width:48em) {
     body {
         font-size: 0.9em;
         -webkit-text-size-adjust: none;
+    }
+    
+    #brand h1 {
+    	margin-top: 0em;
     }
 }
       
