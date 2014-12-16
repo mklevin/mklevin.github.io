@@ -5193,7 +5193,7 @@ footer .row-content.buffer {
     }
     
     .intro-item h2 {
-	    margin-top: 33%;
+	    margin-top: 45%;
     }
 }
 
@@ -5201,14 +5201,6 @@ footer .row-content.buffer {
     body {
         font-size: 0.9em;
         -webkit-text-size-adjust: none;
-    }
-    
-    #brand h1 {
-    	margin-top: 0em;
-    }
-    
-    .intro-item h2 {
-	    margin-top: 33%;
     }
 }
       
