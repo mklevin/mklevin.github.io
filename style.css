@@ -5222,7 +5222,7 @@ footer .row-content.buffer {
 	visibility: hidden;
 }
 
-#contact_form input:not([value]):required:invalid, #contact_form textarea:not([value]):required:invalid {
+#contact_form input:not([value=""]):required:invalid, #contact_form textarea:not([value=""]):required:invalid {
 	border-color: #FC6E51;
 }
 
