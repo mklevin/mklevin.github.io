@@ -219,12 +219,12 @@
 					<div class="row-content buffer even clear-after">
 					<div class="section-title"><h3>Contact</h3></div>	
 						<div class="column nine">
-							<form class="contact-section">
+							<form id="contact_form" class="contact-section" action="https://getsimpleform.com/messages?form_api_token=273e9cc47f0985e321d53a8d251ef075" method="post">
 								<span class="pre-input"><i class="icon icon-user"></i></span>
-								<input class="name plain buffer" type="text" placeholder="Full name">
+								<input class="name plain buffer" name="name" type="text" placeholder="Full name">
 								<span class="pre-input"><i class="icon icon-email"></i></span>
-								<input class="email plain buffer" type="email" placeholder="Email address">
-								<textarea class="plain buffer" placeholder="Type your message here!"></textarea>
+								<input class="email plain buffer" name="email" type="email" placeholder="Email address">
+								<textarea class="plain buffer" name="content" placeholder="Type your message here!"></textarea>
 								<input class="plain button red" type="submit" value="Send">
 							</form>	
 						</div>	
@@ -275,6 +275,7 @@
 		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>		
 		<script src="js/plugins.js"></script>
 		<script src="js/beetle.js"></script>
+		<script src="js/contact.js"></script>
 		<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
 
 	</body>
