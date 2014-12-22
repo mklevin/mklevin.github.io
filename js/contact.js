@@ -1,4 +1,4 @@
 $("#contact_form").submit(function(e) {
-	event.preventDefault();
+	// event.preventDefault();
 	var form = this;
 });
