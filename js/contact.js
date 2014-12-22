@@ -1,4 +1,4 @@
-$("#contact_form").delegate('form', 'submit', function(event) {
+$("#contact_form").submit(function(e) {
 	alert("Got this far!");
 	event.preventDefault();
 });
