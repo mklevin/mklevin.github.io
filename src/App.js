@@ -8,7 +8,6 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      <div className="spacer" />
       <div className="Resume">
         <Header resumeInfo={ResumeData.info} />
         <main>
@@ -20,7 +19,6 @@ function App() {
           </div>
         </main>
       </div>
-      <div className="spacer" />
     </div>
   );
 }
