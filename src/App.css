@@ -75,9 +75,6 @@ header .name {
 header .links {
   flex: 5;
   text-align: right;
-}
-
-header .links {
   margin-top: 2.4em;
 }
 
@@ -181,5 +178,25 @@ header .links {
   a {
     color: black;
     text-decoration: none;
+  }
+
+  header .links .other {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .App {
+    font-size: 10pt;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  header .links {
+    max-width: 85%;
+    text-align: center;
+    margin-top: 0;
   }
 }
