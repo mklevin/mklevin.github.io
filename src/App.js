@@ -14,7 +14,6 @@ function App() {
           <ExperienceSection experiences={ResumeData.experience} />
           <div className="sidebar">
             <SkillsSection skills={ResumeData.skills} />
-            <div className="spacer" />
             <EducationSection education={ResumeData.education} />
           </div>
         </main>
