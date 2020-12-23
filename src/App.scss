@@ -1,3 +1,12 @@
+$textColor: black;
+$backgroundColor: white;
+$highlightColor: #03506f;
+
+body {
+  background-color: $backgroundColor;
+  color: $textColor;
+}
+
 .App {
   display: flex;
   min-width: 400px;
@@ -30,7 +39,7 @@ main {
 }
 
 h1 {
-  color: #03506f; /* customize me! */
+  color: $highlightColor;
   font-size: 3em;
   font-weight: normal;
   margin-block-start: 0.75em;
@@ -38,7 +47,7 @@ h1 {
 }
 
 h2 {
-  color: #03506f; /* customize me! */
+  color: $highlightColor;
   font-size: 1.5em;
   font-weight: normal;
   border-bottom: 1px solid #000;
@@ -129,7 +138,7 @@ header .links {
 
 .experience .details li:before {
   content: "•";
-  color: #03506f; /* customize me! */
+  color: $highlightColor;
   display: inline-block; 
   width: 1em;
   margin-left: -1em;
@@ -198,5 +207,16 @@ header .links {
     max-width: 85%;
     text-align: center;
     margin-top: 0;
+  }
+
+  .experience {
+    margin-right: 0;
+  }
+
+  h3, 
+  .experience li.experienceItem .when,
+  .education li.educationItem .when,
+  .educationList .title {
+    font-weight: 600;
   }
 }
