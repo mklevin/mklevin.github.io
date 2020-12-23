@@ -133,6 +133,7 @@
             "startDate": "June",
             "endDate": "August 2014",
             "bullets": [
+                "Designed and implemented a Java-based multithreaded automation system for an international batch processing platform, reducing daily processing time by over 50%.",
                 "Created a user interface for triggering and monitoring automation using a vendor toolkit and C#.",
                 "Communicated and persisted data between front and back ends using Sybase ASE databases.",
                 "Used Agile Scrum methodology to conduct eight one-week sprints to meet the needs of product owners while giving weekly sprint demonstrations."
