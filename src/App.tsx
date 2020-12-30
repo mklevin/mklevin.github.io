@@ -8,6 +8,15 @@ import ThemeSwitcher from './components/theme-switcher';
 import ResumeData from './data.json';
 import './App.css';
 
+/** theme switcher settings */
+enum ThemeSwitcherMode {
+  SWITCHABLE, 
+  LIGHT_ONLY, 
+  DARK_ONLY 
+}
+/* adjust this constant to change theme switcher behavior */
+const THEME_SWITCHER_MODE: ThemeSwitcherMode = ThemeSwitcherMode.SWITCHABLE;
+
 function App() {
   const [theme, setTheme] = React.useState(
     localStorage.getItem('theme') || ''
@@ -24,11 +33,17 @@ function App() {
       setTheme('light');
     }
   }
-  document.documentElement.setAttribute("data-theme", theme);
 
+  if (THEME_SWITCHER_MODE === ThemeSwitcherMode.SWITCHABLE) {
+    document.documentElement.setAttribute('data-theme', theme);
+  } else if (THEME_SWITCHER_MODE === ThemeSwitcherMode.DARK_ONLY) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+
+  const enableThemeSwitcher = THEME_SWITCHER_MODE === ThemeSwitcherMode.SWITCHABLE;
   return (
     <div className='App'>
-      <ThemeSwitcher currentTheme={theme} setThemeFn={setTheme}/>
+      <ThemeSwitcher enabled={enableThemeSwitcher} currentTheme={theme} setThemeFn={setTheme}/>
       <div className="Resume">
         <Header resumeInfo={ResumeData.info} />
         <main>
