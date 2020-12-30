@@ -12,7 +12,11 @@ function App() {
   const [theme, setTheme] = React.useState(
     localStorage.getItem('theme') || ''
   );
+  React.useEffect(() => {
+    localStorage.setItem('theme', theme);
+  }, [theme]);
 
+  // set theme to OS preference by default (if one exists)
   if (theme === '') {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       setTheme('dark');
@@ -20,12 +24,7 @@ function App() {
       setTheme('light');
     }
   }
-
   document.documentElement.setAttribute("data-theme", theme);
- 
-  React.useEffect(() => {
-    localStorage.setItem('theme', theme);
-  }, [theme]);
 
   return (
     <div className='App'>
