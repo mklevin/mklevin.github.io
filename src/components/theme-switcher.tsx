@@ -27,7 +27,7 @@ function updateTheme(currentTheme: string, setThemeFn: Function): void {
 }
 
 const ThemeSwitcher = (props: ThemeSwitcherProps) => {
-    const currentThemeLightMode = matchesTheme(props.currentTheme, Theme.Light);
+    const currentThemeLightMode = matchesTheme(props.currentTheme, Theme.LIGHT);
     const label = currentThemeLightMode ? 'Dark Mode' : 'Light Mode';
     const eventHandler = (event: Event) => {
         event.preventDefault();
