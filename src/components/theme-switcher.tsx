@@ -12,10 +12,7 @@ interface ThemeSwitcherProps {
 }
 
 function matchesTheme(key: string, theme: Theme): boolean {
-    const titleCaseTheme = key.slice(0, 1).toUpperCase() 
-        + key.slice(1, key.length);   
-    
-        return Theme[titleCaseTheme] === theme;
+    return Theme[key.toUpperCase()] === theme;
 }
 
 function updateTheme(currentTheme: string, setThemeFn: Function): void {
