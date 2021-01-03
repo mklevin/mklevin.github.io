@@ -46,7 +46,7 @@ const ThemeSwitcher = (props: ThemeSwitcherProps) => {
                 onKeyDown={(event: KeyboardEvent) => event.key === 'Enter' ? eventHandler(event) : ''}>
                 <span className='theme-switcher-text' aria-hidden='true'>
                     <i className='material-icons'>
-                        {matchesTheme(props.currentTheme, Theme.Light) ? 'dark_mode' : 'light_mode'}
+                        {matchesTheme(props.currentTheme, Theme.LIGHT) ? 'dark_mode' : 'light_mode'}
                     </i>
                 </span>
             </div>
