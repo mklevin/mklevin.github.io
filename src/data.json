@@ -80,8 +80,8 @@
             "graduationDate": "May 2015",
             "degree": "Honors B.S., Computer Science",
             "subDegree": "Minor in Astronomy",
-            "majorGpa": "3.55/4.0",
             "overallGpa": "3.7/4.0",
+            "majorGpa": "3.55/4.0",
             "coursework": [
                 "Advanced Software Engineering", 
                 "Advanced Web Technologies", 
