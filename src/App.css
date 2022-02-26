@@ -306,6 +306,10 @@ header .email {
   .theme-switcher {
     display: none;
   }
+
+  .links .hide-print {
+    display: none;
+  }
   
   .experience {
     flex: 8;

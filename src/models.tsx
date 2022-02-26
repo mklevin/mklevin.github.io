@@ -1,6 +1,7 @@
 export interface SocialLink {
     name: string;
     url?: string;
+    hideFromPrint?: boolean   
 }
 
 export interface ResumeInfo {
@@ -19,9 +20,9 @@ export interface Education {
     graduationDate: string;
     degree: string;
     subDegree?: string;
-    majorGpa: string;
-    overallGpa: string;
-    coursework: string[];
+    majorGpa?: string;
+    overallGpa?: string;
+    coursework?: string[];
 }
 
 export interface Experience {

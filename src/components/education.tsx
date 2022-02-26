@@ -30,9 +30,11 @@ const EducationSection = ({ education }: EducationProps) => {
                     }
                 </div>
             </div>
-            <div className="coursework">
-                <span className="title">Related Coursework: </span>{edu.coursework.join(', ')}
-            </div>
+            {edu.coursework &&
+                <div className="coursework">
+                    <span className="title">Related Coursework: </span>{edu.coursework.join(', ')}
+                </div>
+            }
         </li>
     );
 

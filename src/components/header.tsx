@@ -14,7 +14,7 @@ function handleDownloadClick(e: Event) {
 
 const Header = ({ resumeInfo }: HeaderProps) => {
     const links = resumeInfo.links.map((link: SocialLink) =>
-        <span key={link.name}>
+        <span key={link.name} className={link.hideFromPrint ? "hide-print" : ""}>
             {(link.name) === DOWNLOAD_KEYWORD
                 /* intentionally using a href to simplify styling */
                 /* eslint-disable-next-line */
@@ -22,7 +22,10 @@ const Header = ({ resumeInfo }: HeaderProps) => {
                 : <a href={link.url} target='blank'>{link.name}</a>
             }
         </span>
-    ).reduce((prev, curr) => [prev, ' | ', curr]);
+    ).reduce((prev, curr) => [
+        prev, 
+        <span key={prev.key + "-div"} className={curr.props.className}> | </span>, 
+        curr]);
 
     return (
         <header>
