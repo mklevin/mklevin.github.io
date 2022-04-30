@@ -1,9 +1,27 @@
+import reactStringReplace from 'react-string-replace';
+
 import React from 'react';
-import { Experience } from './../models';
+import { BulletLink, Experience, ExperienceBullet } from './../models';
 
 interface ExperienceProps {
     experiences: Experience[];
 };
+
+function renderBullet(bullet: string | ExperienceBullet) {
+    const experienceBullet = (bullet as ExperienceBullet);
+    if (experienceBullet.text) {
+        let result = experienceBullet.text;
+        experienceBullet.links?.forEach(link => {
+            result = reactStringReplace(
+                result, 
+                link.text, 
+                (match, i) => <a href={link.link} target="_blank">{link.text}</a>);
+        });
+        return result;
+    } else {
+        return bullet;
+    }
+}
 
 const ExperienceSection = ({ experiences }: ExperienceProps) => {
     const renderedExperiences = experiences.map((experience: Experience) =>
@@ -24,7 +42,7 @@ const ExperienceSection = ({ experiences }: ExperienceProps) => {
             </div>
             <ul className="details">
                 {experience.bullets.map((bullet) => {
-                    return <li key={bullet}>{bullet}</li>;
+                    return <li key={bullet}>{renderBullet(bullet)}</li>;
                 })}
             </ul>
         </li>

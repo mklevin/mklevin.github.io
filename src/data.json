@@ -44,8 +44,8 @@
                 "Luigi", 
                 "Guava", 
                 "GraphQL", 
-                "MySQL",
                 "PostgreSQL",
+                "MySQL",
                 "Android", 
                 "React", 
                 "Angular"]
@@ -58,6 +58,7 @@
                         "AppEngine",
                         "BigQuery", 
                         "BigTable", 
+                        "Cloud Pub/Sub",
                         "Cloud SQL", 
                         "Cloud Storage", 
                         "Compute Engine", 
@@ -79,8 +80,7 @@
             "graduationDate": "May 2015",
             "degree": "Honors B.S., Computer Science",
             "subDegree": "Minor in Astronomy",
-            "overallGpa": "3.7/4.0",
-            "majorGpa": "3.55/4.0"
+            "overallGpa": "3.6/4.0"
         }
     ],
     "experience": [
@@ -91,13 +91,37 @@
             "startDate": "January 2019",
             "endDate": "Present",
             "bullets": [
-                "Drove greenfield technical discovery, designed, proposed, and built proof-of-concept experiments, and led a team of 4 engineers in the design, implementation, and scaling of new fan monetization features for artists.",
+                {
+                    "text": "Drove greenfield technical discovery, proposed and built proof-of-concept experiments, and led a team of 6 engineers in the design, implementation, and scaling of new fan monetization features for artists.",
+                    "links": [{
+                        "text": "new fan monetization features for artists",
+                        "link": "https://www.billboard.com/pro/spotify-live-audio-rooms-artist-fans-connections"
+                    }]
+                },
                 "Led a team of 4 engineers in the design and implementation of a cross-channel (email & in-app) notification targeting and delivery platform for Spotify for Artists, which now serves millions of notifications daily.",
-                "Led a team of 3 engineers in the design and implementation of the backend systems and data pipelines that powered Spotify Wrapped for Artists 2020.",
-                "Collaborated in the design and led the backend implementation of the Home screen for the Spotify for Artists mobile app.",
+                {
+                    "text": "Led a team of 3 engineers in the design and implementation of the backend systems and data pipelines that powered Spotify Wrapped for Artists 2020.",
+                    "links": [{
+                        "text": "Spotify Wrapped for Artists 2020",
+                        "link": "https://artists.spotify.com/en/blog/your-2020-wrapped-is-here"
+                    }]
+                },
+                {
+                    "text": "Collaborated in the design and led the backend and personalization implementation of the Home screen for the Spotify for Artists mobile app.",
+                    "links": [{
+                        "text": "Home screen",
+                        "link": "https://techcrunch.com/2019/09/24/spotifys-app-for-artists-gets-a-big-revamp-adds-real-time-stats-for-any-song"
+                    }]
+                },
                 "Led a team of 4 engineers in the design and implementation of a customer support team admin tool for Spotify for Artists.",
-                "Designed and implemented a platform for automatically generating unique shareable social media assets for Spotify for Artists users.",
-                "Evangelized technical discovery approaches across Spotify, including collaborating on product area-level technical strategy and supporting teams throughout the company engaged in discovery.",
+                {
+                    "text": "Designed and implemented a platform for automatically generating unique shareable social media assets for Spotify for Artists users.",
+                    "links": [{
+                        "text": "unique shareable social media assets",
+                        "link": "https://artists.spotify.com/en/blog/introducing-personalized-share-cards-to-encourage-your-fans-to-vote"
+                    }]
+                },
+                "Evangelized technical discovery strategy across Spotify, including delivering company-wide talks, collaborating on product area-level technical strategy, and supporting teams, managers, and leads engaged in discovery throughout the company.",
                 "Managed relationships with team stakeholders, groomed and prioritized the team's backlog, and worked directly with product and design partners to plan the team's future roadmap including advocating for prioritization of technical improvements."
             ]
         },

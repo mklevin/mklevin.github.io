@@ -25,13 +25,23 @@ export interface Education {
     coursework?: string[];
 }
 
+export interface BulletLink {
+    text: string;
+    link: string;
+}
+
+export interface ExperienceBullet {
+    text: string;
+    links?: BulletLink[];
+}
+
 export interface Experience {
     company: string;
     jobTitle: string;
     location: string;
     startDate: string;
     endDate?: string;
-    bullets: string[];
+    bullets: Array<string|ExperienceBullet>;
 }
 
 export interface Resume {
