@@ -257,7 +257,7 @@ header .email {
   }
 
   h3, 
-  .experience li.experience-item .when,
+  .experience li.experience-item .where,
   .education li.education-item .when,
   .education-list .title {
     font-weight: var(--bold-font-weight);
