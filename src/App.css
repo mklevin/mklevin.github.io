@@ -194,7 +194,7 @@ header .email {
   flex: 1;
 }
 
-.experience li.experience-item .when,
+.experience li.experience-item .where,
 .education li.education-item .when {
   font-size: var(--bold-font-size);
   font-weight: var(--bold-font-weight);
@@ -202,7 +202,7 @@ header .email {
   text-align: right;
 }
 
-.experience li.experience-item .where {
+.experience li.experience-item .when {
   font-style: italic;
   text-align: right;
 }

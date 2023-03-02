@@ -24,29 +24,32 @@ function renderBullet(bullet: string | ExperienceBullet) {
 }
 
 const ExperienceSection = ({ experiences }: ExperienceProps) => {
-    const renderedExperiences = experiences.map((experience: Experience) =>
-        <li className="experience-item" key={experience.company}>
-            <div className="summary">
-                <div className="info">
-                    <h3>{experience.company}</h3>
-                    <h4>{experience.jobTitle}</h4>
-                </div>
-                <div className="context">
-                    <div className="when">
-                        {experience.startDate} &mdash; {experience.endDate}
+    const renderedExperiences = experiences.map(
+        (experience: Experience, index: number, allExperiences: Experience[]) => {
+            if (experience.hidden) {
+                return;
+            }
+            const newCompany = (index === 0 || experience.company !== allExperiences[index - 1].company);
+            return <li className="experience-item" key={experience.company}>
+                <div className="summary">
+                    <div className="info">
+                        {newCompany && <h3>{experience.company}</h3>}
+                        <h4>{experience.jobTitle}</h4>
                     </div>
-                    <div className="where">
-                        {experience.location}
+                    <div className="context">
+                        {newCompany && <div className="where">{experience.location}</div>}
+                        <div className="when">
+                            {experience.startDate} &mdash; {experience.endDate}
+                        </div>
                     </div>
                 </div>
-            </div>
-            <ul className="details">
-                {experience.bullets.map((bullet) => {
-                    return <li key={bullet}>{renderBullet(bullet)}</li>;
-                })}
-            </ul>
-        </li>
-    );
+                <ul className="details">
+                    {experience.bullets.map((bullet) => {
+                        return <li key={bullet}>{renderBullet(bullet)}</li>;
+                    })}
+                </ul>
+            </li>
+});
 
     return (
         <div className="experience">

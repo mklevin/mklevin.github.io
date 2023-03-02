@@ -86,10 +86,22 @@
     "experience": [
         {
             "company": "Spotify",
+            "jobTitle": "Staff Engineer",
+            "location": "New York, NY",
+            "startDate": "March 2023",
+            "endDate": "Present",
+            "bullets": [
+                "Led technical discovery, developed architecture strategy, and supported two teams in the production-quality development of live artist-fan interactive experiences.",
+                "Partnered directly with managers and leadership to prioritize technical goals and improve cross-team collaboration.",
+                "Evangelized technical discovery strategy across Spotify, including delivering company-wide talks, collaborating on product area-level technical strategy, and supporting teams, managers, and leads engaged in discovery throughout the company."
+            ]
+        },
+        {
+            "company": "Spotify",
             "jobTitle": "Senior Software Engineer, Tech Lead",
             "location": "New York, NY",
             "startDate": "January 2019",
-            "endDate": "Present",
+            "endDate": "March 2023",
             "bullets": [
                 {
                     "text": "Drove greenfield technical discovery, proposed and built proof-of-concept experiments, and led a team of 6 engineers in the design, implementation, and scaling of new fan monetization features for artists.",
@@ -121,7 +133,6 @@
                         "link": "https://artists.spotify.com/en/blog/introducing-personalized-share-cards-to-encourage-your-fans-to-vote"
                     }]
                 },
-                "Evangelized technical discovery strategy across Spotify, including delivering company-wide talks, collaborating on product area-level technical strategy, and supporting teams, managers, and leads engaged in discovery throughout the company.",
                 "Managed relationships with team stakeholders, groomed and prioritized the team's backlog, and worked directly with product and design partners to plan the team's future roadmap including advocating for prioritization of technical improvements."
             ]
         },
@@ -153,6 +164,7 @@
             ]
         },
         {
+            "hidden": true,
             "company": "Agilent Technologies",
             "jobTitle": "Software Engineering Intern",
             "location": "Wilmington, DE",

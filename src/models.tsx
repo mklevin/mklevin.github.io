@@ -36,6 +36,7 @@ export interface ExperienceBullet {
 }
 
 export interface Experience {
+    hidden?: boolean,
     company: string;
     jobTitle: string;
     location: string;
