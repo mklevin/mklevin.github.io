@@ -92,15 +92,15 @@
             "endDate": "Present",
             "bullets": [
                 {
-                    "text": "Led technical discovery, developed architecture strategy, and supported three teams in the full-stack engineering build and launch of Listening Parties, brand-new artist-fan interactive experience with 95% fan satisfaction and 90% artist desirability.",
+                    "text": "Led technical discovery, developed architecture strategy, and supported three teams in the full-stack build and launch of Listening Parties, a brand-new artist-fan interactive experience with 95% fan satisfaction and 90% artist desirability.",
                     "links": [{
                         "text": "Listening Parties",
                         "link": "https://www.billboard.com/music/music-news/spotify-artist-wrapped-2023-listening-parties-merch-discounts-1235515287/"
                     }] 
                 },
                 "Partnered directly with managers and leadership to prioritize and plan technical work and facilitate cross-team collaboration.",
-                "Evangelized technical discovery strategy across Spotify, including delivering company-wide talks, developing organization-wide discovery practices, and supporting teams, managers, and leads engaged in discovery throughout the company.",
-                "Guaranteed both product quality and team health by mentoring engineers in the development of reliability and testing strategies, technical best practices. and systems for enforcing them."
+                "Evangelized technical discovery strategy across Spotify including developing a new discovery process, delivering company-wide talks, and supporting teams, managers, and leads engaged in discovery throughout the company.",
+                "Guaranteed both product quality and team health by mentoring engineers in the development of reliability and testing strategies, technical best practices, and systems for enforcing them."
             ]
         },
         {
@@ -139,8 +139,7 @@
                         "text": "Spotify's largest election campaign to date.",
                         "link": "https://artists.spotify.com/en/blog/introducing-personalized-share-cards-to-encourage-your-fans-to-vote"
                     }]
-                },
-                "Managed relationships with team stakeholders, groomed and prioritized team backlogs, and worked directly with product and design partners to plan the team's future roadmap including advocating for prioritization of technical improvements."
+                }
             ]
         },
         {
