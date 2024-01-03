@@ -91,9 +91,16 @@
             "startDate": "March 2023",
             "endDate": "Present",
             "bullets": [
-                "Led technical discovery, developed architecture strategy, and supported two teams in the production-quality development of live artist-fan interactive experiences.",
-                "Partnered directly with managers and leadership to plan technical work and facilitate cross-team collaboration.",
-                "Evangelized technical discovery strategy across Spotify, including delivering company-wide talks, collaborating on product area-level technical strategy, and supporting teams, managers, and leads engaged in discovery throughout the company."
+                {
+                    "text": "Led technical discovery, developed architecture strategy, and supported three teams in the full-stack engineering build and launch of Listening Parties, brand-new artist-fan interactive experience with 95% fan satisfaction and 90% artist desirability.",
+                    "links": [{
+                        "text": "Listening Parties",
+                        "link": "https://www.billboard.com/music/music-news/spotify-artist-wrapped-2023-listening-parties-merch-discounts-1235515287/"
+                    }] 
+                },
+                "Partnered directly with managers and leadership to prioritize and plan technical work and facilitate cross-team collaboration.",
+                "Evangelized technical discovery strategy across Spotify, including delivering company-wide talks, developing organization-wide discovery practices, and supporting teams, managers, and leads engaged in discovery throughout the company.",
+                "Guaranteed both product quality and team health by mentoring engineers in the development of reliability and testing strategies, technical best practices. and systems for enforcing them."
             ]
         },
         {
@@ -127,13 +134,13 @@
                 },
                 "Led a team of 4 engineers in the design and implementation of a customer support team admin tool for Spotify for Artists.",
                 {
-                    "text": "Designed and implemented a platform for automatically generating unique shareable social media assets for Spotify for Artists users.",
+                    "text": "Designed and implemented a platform for automatically generating unique shareable social media assets for artists, which was used to power Spotify's largest election campaign to date.",
                     "links": [{
-                        "text": "unique shareable social media assets",
+                        "text": "Spotify's largest election campaign to date.",
                         "link": "https://artists.spotify.com/en/blog/introducing-personalized-share-cards-to-encourage-your-fans-to-vote"
                     }]
                 },
-                "Managed relationships with team stakeholders, groomed and prioritized the team's backlog, and worked directly with product and design partners to plan the team's future roadmap including advocating for prioritization of technical improvements."
+                "Managed relationships with team stakeholders, groomed and prioritized team backlogs, and worked directly with product and design partners to plan the team's future roadmap including advocating for prioritization of technical improvements."
             ]
         },
         {

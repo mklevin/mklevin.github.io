@@ -2,20 +2,19 @@
 
 /* highlight colors */
 :root {
-  --light-highlight-color: navy;
+  --light-highlight-color: #0D47A1;
   --dark-highlight-color: #64B5F6;
+  --bold-font-size: 1.05rem;
+  --bold-font-weight: 600;
 }
 
 /* default color palette */
-html {
+html[data-theme='light'] {
   --bkg-color: white;
   --text-color: black;
   --highlight-color: var(--light-highlight-color);
   --underline-color: var(--text-color);
   --link-color: #0000EE; /* default web link color, nothing special */
-
-  --bold-font-size: 1.05rem;
-  --bold-font-weight: 600;
 }
 
 /* dark theme color palette */

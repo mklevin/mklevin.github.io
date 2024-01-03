@@ -38,6 +38,8 @@ function App() {
     document.documentElement.setAttribute('data-theme', theme);
   } else if (THEME_SWITCHER_MODE === ThemeSwitcherMode.DARK_ONLY) {
     document.documentElement.setAttribute('data-theme', 'dark');
+  } else if (THEME_SWITCHER_MODE === ThemeSwitcherMode.LIGHT_ONLY) {
+    document.documentElement.setAttribute('data-theme', 'light')
   }
 
   const enableThemeSwitcher = THEME_SWITCHER_MODE === ThemeSwitcherMode.SWITCHABLE;
