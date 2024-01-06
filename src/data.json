@@ -31,6 +31,7 @@
                 "SQL", 
                 "JavaScript/TypeScript", 
                 "HTML/CSS", 
+                "Bash/Zsh",
                 "C#", 
                 "C", 
                 "C++", 
@@ -42,12 +43,15 @@
             "items": [
                 "Scio (Apache Beam)", 
                 "Luigi", 
+                "Flyte",
                 "Guava", 
+                "gRPC",
                 "GraphQL", 
                 "PostgreSQL",
                 "MySQL",
-                "Android", 
                 "React", 
+                "Node",
+                "Android", 
                 "Angular"]
         }, {
             "name": "Tools & Platforms",
@@ -60,6 +64,7 @@
                         "BigTable", 
                         "Cloud Pub/Sub",
                         "Cloud SQL", 
+                        "Cloud Scheduler",
                         "Cloud Storage", 
                         "Compute Engine", 
                         "Dataflow", 
@@ -69,6 +74,7 @@
                 },
                 "Git",
                 "Subversion",
+                "Grafana",
                 "Unix/Linux",
                 "Adobe Photoshop"
             ]
