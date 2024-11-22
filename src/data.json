@@ -41,11 +41,11 @@
         {
             "name": "Frameworks & Libraries",
             "items": [
+                "gRPC",
                 "Scio (Apache Beam)", 
                 "Luigi", 
                 "Flyte",
                 "Guava", 
-                "gRPC",
                 "GraphQL", 
                 "PostgreSQL",
                 "MySQL",
@@ -59,7 +59,6 @@
                 {
                     "name": "Google Cloud",
                     "items": [
-                        "AppEngine",
                         "BigQuery", 
                         "BigTable", 
                         "Cloud Pub/Sub",
@@ -67,13 +66,14 @@
                         "Cloud Scheduler",
                         "Cloud Storage", 
                         "Compute Engine", 
-                        "Dataflow", 
+                        "Dataflow",
+                        "Gemini",
                         "Kubernetes", 
-                        "Spanner"
+                        "Spanner",
+                        "Vertex AI"
                     ]
                 },
                 "Git",
-                "Subversion",
                 "Grafana",
                 "Unix/Linux",
                 "Adobe Photoshop"
@@ -98,15 +98,24 @@
             "endDate": "Present",
             "bullets": [
                 {
-                    "text": "Led technical discovery, developed architecture strategy, and supported three teams in the full-stack build and launch of Listening Parties, a brand-new artist-fan interactive experience with 95% fan satisfaction and 90% artist desirability.",
+                    "text": "Led technical discovery, developed architecture, and supported three teams in the full-stack build and launch of Listening Parties, a brand-new artist-fan interactive experience with 95% fan satisfaction and 90% artist desirability. Notable users include Billie Eilish, Sabrina Carpenter, Ed Sheeran, Peso Pluma, and more.",
                     "links": [{
                         "text": "Listening Parties",
                         "link": "https://www.billboard.com/music/music-news/spotify-artist-wrapped-2023-listening-parties-merch-discounts-1235515287/"
+                    },
+                    {
+                        "text": "Billie Eilish",
+                        "link": "https://musically.com/2024/05/15/billie-eilish-set-to-hold-a-live-listening-party-with-spotify"
+                    },
+                    {
+                        "text": "Peso Pluma",
+                        "link": "https://belatina.com/peso-pluma-makes-history-with-spotifys-first-listening-party-in-mexico"
                     }] 
                 },
+                "Proposed and developed prototypes to apply off-the-shelf large language models (LLMs) for automated video content understanding at scale.",
                 "Ensured both product quality and team health by mentoring engineers in the development of reliability and testing strategies, technical best practices, and systems for enforcing them, resulting in 100% uptime for critical events.",
-                "Evangelized technical discovery strategy across Spotify including developing a new discovery process, delivering company-wide talks, and supporting teams, managers, and leads engaged in discovery throughout the company.",
-                "Partnered directly with managers and leadership to prioritize and plan technical work and facilitate cross-team collaboration."
+                "Developed and evangelized processes for technical discovery and technical strategy across Spotify by contributing to company-wide documentation, publishing blog posts, delivering talks at internal conferences, and supporting teams, managers, and leads engaged in technical discovery and strategy.",
+                "Partnered directly with managers and leadership in my own and partner organizations to prioritize and plan technical work and facilitate cross-team collaboration."
             ]
         },
         {
@@ -117,15 +126,15 @@
             "endDate": "March 2023",
             "bullets": [
                 {
-                    "text": "Drove greenfield technical discovery, proposed and built proof-of-concept experiments, and led a team of 6 engineers in the design, implementation, and scaling of new fan monetization features for artists.",
+                    "text": "Drove greenfield technical discovery, proposed and built proof-of-concept experiments, and led a team of six engineers in the design, implementation, and scaling of new fan monetization features for artists.",
                     "links": [{
                         "text": "new fan monetization features for artists",
                         "link": "https://www.billboard.com/pro/spotify-live-audio-rooms-artist-fans-connections"
                     }]
                 },
-                "Led a team of 4 engineers in the design and implementation of a cross-channel (email & in-app) notification targeting and delivery platform for Spotify for Artists, which now serves millions of notifications daily.",
+                "Led a team of four engineers in the design and implementation of a cross-channel (email & in-app) notification targeting and delivery platform for Spotify for Artists, which now serves millions of notifications daily.",
                 {
-                    "text": "Led a team of 3 engineers in the design and implementation of the backend systems and data pipelines that powered Spotify Wrapped for Artists 2020.",
+                    "text": "Led a team of three engineers in the design and implementation of the backend systems and data pipelines that powered Spotify Wrapped for Artists 2020.",
                     "links": [{
                         "text": "Spotify Wrapped for Artists 2020",
                         "link": "https://artists.spotify.com/en/blog/your-2020-wrapped-is-here"
@@ -138,7 +147,7 @@
                         "link": "https://techcrunch.com/2019/09/24/spotifys-app-for-artists-gets-a-big-revamp-adds-real-time-stats-for-any-song"
                     }]
                 },
-                "Led a team of 4 engineers in the design and implementation of a customer support admin tool for Spotify for Artists.",
+                "Led a team of four engineers in the design and implementation of a customer support admin tool for Spotify for Artists.",
                 {
                     "text": "Designed and implemented a platform for automatically generating unique shareable social media assets for artists, which was used to power Spotify's largest election campaign to date.",
                     "links": [{
@@ -172,7 +181,7 @@
                 "Designed and implemented a Java-based multithreaded automation system for an international batch processing platform, reducing daily processing time by over 50%.",
                 "Created a user interface for triggering and monitoring automation using a vendor toolkit and C#.",
                 "Communicated and persisted data between front and back ends using Sybase ASE databases.",
-                "Used Agile Scrum methodology to conduct eight one-week sprints to meet the needs of product owners while giving weekly sprint demonstrations."
+                "Used Agile Scrum methodology to conduct eight one-week sprints to meet the needs of product owners."
             ]
         },
         {

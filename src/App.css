@@ -283,7 +283,7 @@ header .email {
 @media print {
   /* force a printer-friendly version of light mode */
   html {
-    font-size: 11.2px;
+    font-size: 0.69rem;
     --bkg-color: white !important;
     --text-color: black !important;
     --highlight-color: var(--light-highlight-color) !important;
@@ -291,7 +291,7 @@ header .email {
   }
 
   .App {
-    margin: -0.5em 0 0;
+    margin: -0.5em -1.5em 0;
   }
 
   .Resume {
