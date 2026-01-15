@@ -77,7 +77,8 @@
                 "Grafana",
                 "Claude",
                 "Unix/Linux",
-                "Adobe Photoshop"
+                "Adobe Photoshop",
+                "Excel"
             ]
         }
     ],
@@ -99,7 +100,7 @@
             "endDate": "Present",
             "bullets": [
                 {
-                    "text": "Led technical discovery, developed architecture, and supported three teams in the full-stack build and launch of Listening Parties, a brand-new artist-fan interactive experience with 95% fan satisfaction and 90% artist desirability. Notable users include Billie Eilish, Sabrina Carpenter, Ed Sheeran, Peso Pluma, and more.",
+                    "text": "Led technical discovery, developed architecture, and supported three teams in the full-stack build and launch of Listening Parties, a brand-new artist-fan interactive experience with 95% fan satisfaction and 90% artist desirability. Notable users include Billie Eilish, Sabrina Carpenter, Ed Sheeran, Peso Pluma, TWICE, and more.",
                     "links": [{
                         "text": "Listening Parties",
                         "link": "https://www.billboard.com/music/music-news/spotify-artist-wrapped-2023-listening-parties-merch-discounts-1235515287/"
