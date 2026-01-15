@@ -43,8 +43,8 @@
             "items": [
                 "gRPC",
                 "Scio (Apache Beam)", 
-                "Luigi", 
                 "Flyte",
+                "Luigi", 
                 "Guava", 
                 "GraphQL", 
                 "PostgreSQL",
@@ -75,6 +75,7 @@
                 },
                 "Git",
                 "Grafana",
+                "Claude",
                 "Unix/Linux",
                 "Adobe Photoshop"
             ]
@@ -112,9 +113,9 @@
                         "link": "https://belatina.com/peso-pluma-makes-history-with-spotifys-first-listening-party-in-mexico"
                     }] 
                 },
-                "Proposed and developed prototypes to apply off-the-shelf large language models (LLMs) for automated video content understanding at scale.",
-                "Ensured both product quality and team health by mentoring engineers in the development of reliability and testing strategies, technical best practices, and systems for enforcing them, resulting in 100% uptime for critical events.",
-                "Developed and evangelized processes for technical discovery and technical strategy across Spotify by contributing to company-wide documentation, publishing blog posts, delivering talks at internal conferences, and supporting teams, managers, and leads engaged in technical discovery and strategy.",
+                "Proposed and developed prototypes and production pipelines to apply off-the-shelf large language models (LLMs) for automated video understanding at scale.",
+                "Ensured both product quality and team health by mentoring engineers in the development of reliability and testing strategies, technical best practices, and systems for enforcing them, resulting in 100% uptime during critical product launches.",
+                "Developed and evangelized processes for technical discovery and strategy across Spotify by contributing to company-wide documentation, publishing blog posts, delivering talks at internal conferences, and directly supporting teams, managers, and leads.",
                 "Partnered directly with managers and leadership in my own and partner organizations to prioritize and plan technical work and facilitate cross-team collaboration."
             ]
         },
